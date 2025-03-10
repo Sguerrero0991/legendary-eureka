@@ -7,4 +7,17 @@ class Ride
     @loop = ride_info[:loop]
     @terrain = ride_info[:terrain]
   end
+
+  def loop?
+   @loop
+  end
+
+  def total_distance
+    if @loop == false 
+      @distance * 2
+    else @loop == true
+      @distance
+    end 
+  end
+
 end
