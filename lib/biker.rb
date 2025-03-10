@@ -19,11 +19,14 @@ class Biker
     else
       rides[ride] = [distance]  #creates the new array with the first distance at the first element
     end
-    binding.pry
   end
 
   # def log_ride(ride, distance)
   #   rides[ride] = distance
   #   binding.pry
   # end
+
+  def personal_record(ride)
+    rides[ride].min
+  end
 end
