@@ -89,6 +89,4 @@ RSpec.describe Biker do
     expect(biker2.personal_record(ride2)).to eq(65.0)
     expect(biker2.personal_record(ride1)).to eq(95.0)
   end
-
-
 end 
