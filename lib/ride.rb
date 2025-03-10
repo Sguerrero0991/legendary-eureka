@@ -18,6 +18,7 @@ class Ride
     else @loop == true
       @distance
     end 
+    binding.pry
   end
 
 end
